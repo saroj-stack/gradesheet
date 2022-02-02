@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student grade calculator</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Build a box card for a gradesheet-->
+    
+    <div class="main-container">
+        <h1>STUDENT GRADESHEET</h1>
+          
+        <!--create form-->
+
+        <div class="row">
+            <div class="col-2">
+                <div class="subject">
+                    <h2>SUBJECT NAMES</h2>
+                    <label for="name"></label><br>
+                    <input type="text" name="name" id="sub1"><br>
+                    <label for="name"></label><br>
+                    <input type="text" name="name" id="sub2"><br>
+                    <label for="name"></label><br>
+                    <input type="text" name="name" id="sub3"><br>
+                    <label for="name"></label><br>
+                    <input type="text" name="name" id="sub4"><br>
+                    <label for="name"></label><br>
+                    <input type="text" name="name" id="sub5"><br>
+                </div>
+            </div>
+               
+            <div class="col-2">
+                <div class="marks">
+                    <h2>SUBECT MARKS</h2>
+                    <input type="number" placeholder="" id = "mark1"><br>
+                    <input type="number" placeholder="" id = "mark2"><br>
+                    <input type="number" placeholder="" id = "mark3"><br>
+                    <input type="number" placeholder="" id = "mark4"><br>
+                    <input type="number" placeholder="" id = "mark5"><br>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button onclick="show()">SHOW PERCENTAGE</button>
+        </div>
+            
+    </div>
+
+       
+    <script src="script.js"></script>
+    
+</body>
+</html>
